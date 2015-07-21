@@ -1,0 +1,2 @@
+[ 2015-06-19T15:34:52+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2015-06-19T20:37:35+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
