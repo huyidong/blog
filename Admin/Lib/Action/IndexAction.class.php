@@ -28,7 +28,7 @@ class IndexAction extends CommonAction {
 			'服务器域名' => $_SERVER['SERVER_NAME'].' [ '.gethostbyname($_SERVER['SERVER_NAME']).' ]',
 			'Register_Globals' => get_cfg_var("register_globals")=="1" ? "ON" : "<font color='red'>OFF</font>",
 			'Magic_Quotes_Gpc' => (1===get_magic_quotes_gpc())?'ON':"<font color='red'>OFF</font>",
-			'版本信息' => 'HYD'
+			'版本信息' => 'RUIBlog_1.0.0'
 		);
 		$this->assign('info',$info);
 

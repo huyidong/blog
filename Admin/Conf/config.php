@@ -27,11 +27,6 @@ $config = array(
 	'GUEST_AUTH_ON' => false, // 是否开启游客授权访问
 	'GUEST_AUTH_ID' => 0,// 游客的用户ID
 	'SHOW_PAGE_TRACE' => true,//显示调试信息
-	'SESSION_TYPE' => 'Redis', //session保存类型
-	'SESSION_PREFIX' => 'sess_', //session前缀
-              'REDIS_HOST' => '127.0.0.1' ,//REDIS服务器地址
-              'REDIS_PORT' => 6379, //REDIS连接端口号
-              'SESSION_EXPIRE' => 3600, //SESSION过期时间
 );
 return array_merge($dbconfig,$webconfig,$config);
 ?>

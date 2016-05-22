@@ -558,7 +558,6 @@ function session($name,$value='') {
             // 检查驱动类
             if(require_cache(EXTEND_PATH.'Driver/Session/'.$class.'.class.php')) {
                 $hander = new $class();
-               // session_set_save_handler()
                 $hander->execute();
             }else {
                 // 类没有定义

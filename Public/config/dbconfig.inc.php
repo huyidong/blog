@@ -3,9 +3,9 @@
 return array(
 	'DB_TYPE' => 'mysql',
 	'DB_HOST' => 'localhost',
-	'DB_NAME' => 'blog',
+	'DB_NAME' => 'ruiblog',
 	'DB_USER' => 'root',
-	'DB_PWD' => 'hyd',
+	'DB_PWD' => '',
 	'DB_PORT'  => '3306',
 	'DB_PREFIX' => 'iqishe_',
 	'RBAC_ROLE_TABLE' => 'iqishe_role',
