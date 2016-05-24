@@ -7,7 +7,7 @@ return array(
 	'DB_USER' => 'root',
 	'DB_PWD' => '141872redis',
 	'DB_PORT'  => '3306'
-	'DB_PREFIX' => 'hyd_',
+	'DB_PREFIX' => 'hyd',
 	'RBAC_ROLE_TABLE' => 'hyd_role',
 	'RBAC_USER_TABLE'=>'hyd_role_user',
 	'RBAC_ACCESS_TABLE'=>'hyd_access',
